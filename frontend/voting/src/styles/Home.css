@@ -1,0 +1,56 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #ebf4ff, #e9d8fd);
+  text-align: center;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: #4a5568;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.admin-button,
+.voter-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.admin-button {
+  background-color: #3182ce;
+}
+
+.admin-button:hover {
+  background-color: #2b6cb0;
+}
+
+.voter-button {
+  background-color: #38a169;
+}
+
+.voter-button:hover {
+  background-color: #2f855a;
+}
